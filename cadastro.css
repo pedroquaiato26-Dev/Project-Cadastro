@@ -1,0 +1,67 @@
+/* Estilo base */
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formulario {
+    background-color: #102B3F;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    width: 400px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.label {
+    display: inline-block; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #1C3A57; 
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #1C8D73;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #146B54; 
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .formulario {
+        padding: 20px;
+    }
+
+    .label {
+        font-size: 12px;
+    }
+}
